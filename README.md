@@ -1,4 +1,4 @@
-# datathon-2026-team (Gamergunk - (Frank Shen, Sarveshan Silvam, Mani Jab, Rounak Saha)) Stream 1 - Final Submission 
+# datathon-2026-team (Gamergunk - (Frank Shen, Sarveshan Silvam, Mani Jabbari, Rounak Saha)) Stream 1 - Final Submission 
 
 ## 1. Final Notebook / Methodology Report
 **Data Cleaning and Preprocessing**
