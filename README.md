@@ -1,4 +1,4 @@
-# datathon-2026-team (Gamergunk) Stream 1 - Final Submission
+# datathon-2026-team (Gamergunk - (Frank Shen, Sarveshan Silvam, Mani Jab, Rounak Saha)) Stream 1 - Final Submission 
 
 ## 1. Final Notebook / Methodology Report
 **Data Cleaning and Preprocessing**
@@ -25,6 +25,7 @@ Missing values in payment ratio columns were intentionally left as `NaN` rather 
 3. Run `new_x_master_pipeline.py`. 
 4. The script automatically executes feature generation, pseudo-labeling, 10-fold CV training, and generates `augmented_train.csv` (the intermediate dataset) alongside the final submission CSV.
 5. **Note:** The LightGBM model is locked to `n_jobs=-1`. Hardware thread counts may cause microscopic floating-point variations deep in the decimal range depending on the execution machine. (Different CPUs may result in slightly different output)
+6. (Optional) To reproduce the hyperparameter search, run hyperparameter_tuning.py. The resulting optimal parameters are already hardcoded into the main pipeline script for the final submission.
 
 ## 3. Final Model Information
 *   **Algorithm:** Single LightGBM Classifier (Gradient Boosting Decision Tree).   
