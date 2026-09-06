@@ -65,7 +65,7 @@ def objective(trial, X, y):
         "objective": "binary",
         "metric": "binary_logloss",
         "boosting_type": "gbdt",
-        "n_estimators": 700, # Hard limit on trees to prevent overfitting to the public leaderboard
+        "n_estimators": 700, # Hard limit on trees to prevent overfitting 
         "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.05, log=True),
         "num_leaves": trial.suggest_int("num_leaves", 20, 100),
         "max_depth": trial.suggest_int("max_depth", 3, 8),
