@@ -1,0 +1,4 @@
+Algorithm: Single LightGBM Classifier (Gradient Boosting Decision Tree).  
+Hyperparameters: learning_rate (0.036019), num_leaves (51), max_depth (5), min_child_weight (6.709), n_estimators (700).  
+Calibration: Isotonic Calibration (CalibratedClassifierCV) applied via 10-fold Stratified Cross-Validation with a holdout calibration set.  
+Post-Processing: Predictions are clipped between 0.015 and 0.985, followed by a log-odds base rate alignment to match the historical 22.12% target mean.  
